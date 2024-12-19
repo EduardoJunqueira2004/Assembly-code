@@ -1,0 +1,9 @@
+.text
+main:
+li $t0,0x0000ff13
+li $t1,0xf5a30614
+li $t2,0x1abce543
+
+nor $t3,$t0,$zero
+nor $t3,$t1,$zero
+nor $t3,$t2,$zero

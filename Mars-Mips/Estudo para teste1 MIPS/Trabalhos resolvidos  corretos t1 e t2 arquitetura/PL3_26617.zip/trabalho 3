@@ -1,0 +1,19 @@
+.data
+var1: .byte 5
+var2: .word 3
+str1: .asciiz "abc"
+str2: .asciiz "xyz"
+ .text
+main:
+lb $a0,var1
+add $v0,$zero,1
+syscall
+lw $a0,var2
+add $v0,$zero,1
+syscall
+la $a0,str1
+add $v0,$zero,4
+syscall
+la $a0,str2
+add $v0,$zero,4
+syscall

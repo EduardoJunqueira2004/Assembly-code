@@ -1,0 +1,13 @@
+Escreva um programa em Assembly do MIPS que:
+
+1) Cumprimente o utilizador;
+2) Solicita ao utilizador o ano do seu nascimento;
+3) Calcula a idade do utilizador às 24:00 de 31 de dezembro de 2022;
+4) Informa o utilizador acerca da sua idade.
+
+Passe o programa elaborado para o campo de resposta, eliminando as linhas em branco que possam aparecer no processo de Copy&Paste.
+
+Bom trabalho.
+
+Texto da resposta
+

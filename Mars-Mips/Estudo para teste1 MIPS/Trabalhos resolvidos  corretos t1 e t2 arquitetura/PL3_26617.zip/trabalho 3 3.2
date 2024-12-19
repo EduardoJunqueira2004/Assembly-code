@@ -1,0 +1,24 @@
+.data
+idade: .space 1
+pergunta: .asciiz "Que idade tens?"
+resposta: .asciiz "A tua idade é "
+.text
+main:
+	li $v0,4
+	la $a0,pergunta 
+	syscall 
+
+	add $v0,$zero,5
+	syscall
+        
+        add $t0,$zero,$v0
+        
+	li $v0,4
+	la $a0,resposta
+	
+	syscall
+	
+	add $a0,$zero,$t0
+	add $v0,$zero,1
+	syscall
+ 

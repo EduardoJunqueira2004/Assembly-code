@@ -1,0 +1,14 @@
+.text
+main:	add $v0,$zero,5
+	syscall
+
+
+	add  $t2,$zero,8
+	add $t1,$v0,$v0
+	sub $t1,$t1,$t2
+	
+	add $a0,$zero,$t1
+	add $v0,$zero,36
+	syscall
+	
+	
